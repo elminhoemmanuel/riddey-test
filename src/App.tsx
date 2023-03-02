@@ -1,11 +1,11 @@
-import { headingStyle, themeClass } from "./styles/app.css";
+import * as styles from "./styles/app.css";
 import "./styles/globals.css"
 
 
 const App = () => {
   return (
-    <div className={themeClass}>
-      <h1 className={headingStyle}>
+    <div>
+      <h1 className={styles.headingStyle}>
         Riddey
       </h1>
     </div>
