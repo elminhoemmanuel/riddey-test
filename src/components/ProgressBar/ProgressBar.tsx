@@ -1,3 +1,4 @@
+import { totalBoards } from "../../constants/card";
 import * as styles from "./progressBar.css";
 
 type Props = {
@@ -6,7 +7,6 @@ type Props = {
 
 const progressBar = ({ step }: Props) => {
 
-  const totalBoards = 10
   const getPercent = () => String((step/totalBoards) * 100)
 
   return (

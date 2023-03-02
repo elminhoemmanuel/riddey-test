@@ -5,7 +5,10 @@ import { sprinkles } from "../../styles/sprinkles.css";
 export const holder = style([
   sprinkles({
     display: "block",
-  })
+  }),
+  {
+    padding: "0 0.75rem"
+  }
 ])
 
 export const title = style([

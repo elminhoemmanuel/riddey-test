@@ -1,3 +1,4 @@
+import { totalBoards } from "../../constants/card";
 import ProgressBar from "../ProgressBar";
 import * as styles from "./cardProgress.css";
 
@@ -6,8 +7,6 @@ type Props = {
 }
 
 const CardProgress = ({ step }: Props) => {
-
-  const totalBoards = 10
 
   return (
     <div className={styles.holder}>
