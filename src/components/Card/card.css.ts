@@ -11,8 +11,7 @@ export const card = style([
     background: "white"
   }),
   {
-    gap: "10px",
-    padding: "1.875rem 1.25rem",
+    padding: "2rem",
     boxShadow: "0px 10px 40px rgba(0, 0, 0, 0.12)",
   }
 ])

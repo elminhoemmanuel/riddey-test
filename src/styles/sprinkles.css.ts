@@ -25,7 +25,6 @@ const responsiveProperties = defineProperties({
     marginLeft: vars.space,
     marginBottom: vars.space,
     fontFamily: vars.fontFamily,
-    fontSize: vars.fontSize,
     width: vars.space,
     height: vars.space
   },

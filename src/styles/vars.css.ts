@@ -14,13 +14,10 @@ export const vars = createGlobalTheme(":root", {
     white: "#fff",
     black: "#000",
     primary: "#E26559",
+    header: "#3C4043",
+    normal: "#636669"
   },
   fontFamily: {
     body: 'Montserrat, Arial',
-  },
-  fontSize: {
-    small: "1em",
-    medium: "1.4em",
-    large: "1.8em",
   },
 });

@@ -7,9 +7,10 @@ export const holder = style([
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    padding: "large",
   }),
   {
     border: "1px solid #D8D9D9",
+    padding: "1.5rem",
+    marginBottom: "1rem"
   }
 ])

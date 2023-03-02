@@ -5,8 +5,7 @@ globalStyle("body, body *", {
   all: "unset",
   boxSizing: "border-box",
   fontFamily: vars.fontFamily.body,
-  fontSize: vars.space.large,
-  color: vars.color.black,
+  color: vars.color.normal,
   padding: 0,
   margin: 0,
 });
