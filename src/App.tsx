@@ -1,14 +1,13 @@
+import Card from "./components/Card";
 import * as styles from "./styles/app.css";
 import "./styles/globals.css"
 
 
 const App = () => {
   return (
-    <div>
-      <h1 className={styles.headingStyle}>
-        Riddey
-      </h1>
-    </div>
+    <section className={styles.backdrop}>
+      <Card />
+    </section>
   )
 }
 

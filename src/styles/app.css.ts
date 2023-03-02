@@ -3,13 +3,16 @@ import { sprinkles } from "./sprinkles.css";
 import { vars } from "./vars.css";
 
 
-export const headingStyle = style([
+export const backdrop = style([
   sprinkles({
-    color: "primary"
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
   }),
   {
-    ':hover': {
-      color: vars.color.black
-    }
+    background: "rgba(0, 0, 0, 0.4)",
+    width: "100%",
+    height: "100vh",
+    backdropFilter: `${vars.space.small}`,
   }
 ])

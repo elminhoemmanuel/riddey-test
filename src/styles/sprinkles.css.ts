@@ -26,6 +26,8 @@ const responsiveProperties = defineProperties({
     marginBottom: vars.space,
     fontFamily: vars.fontFamily,
     fontSize: vars.fontSize,
+    width: vars.space,
+    height: vars.space
   },
   shorthands: {
     padding: ["paddingTop", "paddingBottom", "paddingLeft", "paddingRight"],
