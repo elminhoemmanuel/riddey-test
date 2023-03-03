@@ -7,7 +7,6 @@ export const holder = style([
     display: "block",
   }),
   {
-    padding: "auto 6rem",
     margin: "1.8rem 0",
   }
 ])
@@ -26,7 +25,7 @@ export const featureHolder = style([
     display: "flex",
   }),
   {
-    gap: "6px",
+    gap: "8px",
     fontSize: "0.75rem",
     marginBottom: "1rem",
   }

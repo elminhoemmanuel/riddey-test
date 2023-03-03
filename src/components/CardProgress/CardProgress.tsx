@@ -9,11 +9,11 @@ type Props = {
 const CardProgress = ({ step }: Props) => {
 
   return (
-    <div className={styles.holder}>
+    <section className={styles.holder}>
       <h4 className={styles.title}>Current usage</h4>
       <p className={styles.subtitle}>{step} out of {totalBoards} boards in use</p>
       <ProgressBar step={step} />
-    </div>
+    </section>
   )
 }
 
