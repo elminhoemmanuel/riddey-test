@@ -23,14 +23,14 @@ const features: Feature[] = [
 
 const CardBody = () => {
   return (
-    <div className={styles.holder}>
+    <section className={styles.holder}>
       {features?.map((feature)=>(
         <div className={styles.featureHolder} key={feature.id}>
           <div><img src={CheckIcon} alt="Check icon"/></div>
           <div>{feature?.text}</div>
         </div>
       ))}
-    </div>
+    </section>
   )
 }
 

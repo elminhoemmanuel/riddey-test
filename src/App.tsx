@@ -5,9 +5,9 @@ import "./styles/globals.css"
 
 const App = () => {
   return (
-    <section className={styles.backdrop}>
+    <div className={styles.backdrop}>
       <Card />
-    </section>
+    </div>
   )
 }
 

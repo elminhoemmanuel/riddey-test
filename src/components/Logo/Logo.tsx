@@ -3,9 +3,9 @@ import LogoImage from "../../assets/badge.png";
 
 const Logo = () => {
   return (
-    <div className={styles.holder}>
+    <figure className={styles.holder}>
       <img src={LogoImage} alt="Logo image" />
-    </div>
+    </figure>
   )
 }
 
