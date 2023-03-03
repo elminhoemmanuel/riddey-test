@@ -26,7 +26,7 @@ const CardBody = () => {
     <section className={styles.holder}>
       {features?.map((feature)=>(
         <div className={styles.featureHolder} key={feature.id}>
-          <div><img src={CheckIcon} alt="Check icon"/></div>
+          <figure><img src={CheckIcon} alt="Check icon"/></figure>
           <div>{feature?.text}</div>
         </div>
       ))}
