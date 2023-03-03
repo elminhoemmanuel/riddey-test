@@ -12,6 +12,7 @@ const CardBody = ({ isDisabled, incrStep }: Props) => {
       <Button
         onClick={incrStep}
         disabled={isDisabled()}
+        type="button"
       >
         Add New Board
       </Button>
